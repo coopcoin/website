@@ -9,29 +9,31 @@
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
   %body
-    %header.bHeader
-      .bHeader-logo
-        = image_tag('images/logo.svg')
-      .bHeader-navigation
-        %ul.aNavigation
-          %li.aNavigation-item
-            = link_to I18n.t('navigation.home'), '#'
-          %li.aNavigation-item
-            = link_to I18n.t('navigation.abts'), '#'
-          %li.aNavigation-item
-            = link_to I18n.t('navigation.blog'), '#'
-          %li.aNavigation-item
-            = link_to I18n.t('navigation.contact'), '#'
+    %header.bHeaderWrapper
+      .bHeader
+        .bHeader-logo
+          = image_tag('images/logo.svg')
+        .bHeader-navigation
+          %ul.aNavigation
+            %li.aNavigation-item
+              = link_to I18n.t('navigation.home'), '#'
+            %li.aNavigation-item
+              = link_to I18n.t('navigation.abts'), '#'
+            %li.aNavigation-item
+              = link_to I18n.t('navigation.blog'), '#'
+            %li.aNavigation-item
+              = link_to I18n.t('navigation.contact'), '#'
     = yield
-    .bFooter
-      .bFooter-infos
-        .bFooter-logo= svg_tag('logo')
-        .bFooter-social
-          .bFooter-social-text= I18n.t('footer.social')
-          .bFooter-icons
-            .aIcon= image_tag('icons/icon1.svg')
-            .aIcon= image_tag('icons/icon1.svg')
-            .aIcon= image_tag('icons/icon1.svg')
-            .aIcon= image_tag('icons/icon1.svg')
-      .bFooter-links
-        = link_to I18n.t('footer.abuse'), ''
+    .bFooterWrapper
+      .bFooter
+        .bFooter-infos
+          .bFooter-logo= svg_tag('logo')
+          .bFooter-social
+            .bFooter-social-text= I18n.t('footer.social')
+            .bFooter-icons
+              .aIcon= image_tag('icons/icon1.svg')
+              .aIcon= image_tag('icons/icon1.svg')
+              .aIcon= image_tag('icons/icon1.svg')
+              .aIcon= image_tag('icons/icon1.svg')
+        .bFooter-links
+          = link_to I18n.t('footer.abuse'), ''
