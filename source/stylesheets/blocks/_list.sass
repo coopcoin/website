@@ -1,0 +1,17 @@
+.bList
+  display: grid
+  grid-gap: $margin
+  grid-template-columns: repeat(2, 1fr)
+  .bList-headline
+    font: $large-body-font
+  &.withThreeItems
+    font: $small-body-font
+    grid-template-columns: repeat(3, 1fr)
+  +breakpoint($tablet)
+    grid-template-columns: repeat(2, 1fr)
+    &.withThreeItems
+      grid-template-columns: repeat(2, 1fr)
+  +breakpoint($phone)
+    grid-template-columns: repeat(1, 1fr)
+    &.withThreeItems
+      grid-template-columns: repeat(1, 1fr)

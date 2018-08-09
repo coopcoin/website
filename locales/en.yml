@@ -1,4 +1,26 @@
 en:
+  factoring:
+    benefits:
+      headline: 'CoopCoin’s core benefits for FABT:'
+      benefit1: 'ABTs can be identified from potential  investors around the globe, increasing probablilty of success'
+      benefit2: 'Additional features such as splittling & bundling of ABTs open up opportunies for private and institutional investors'
+      benefit3: 'Security through blockchain and  thorough research concerning relevant regulation create trust for all entities'
+      benefit4: 'Liquidity and tradability of  ABTs make them an attractive investment opportunity'
+      benefit5: 'Elimination of information asymmetry  leads to fairer pricing processes through  transparent market'
+    documentation:
+      headline: Please read the technical documentation for the ABT100 and the Business Case
+      button1: Read our ABTRC for Factoring
+      button2: ABT100 Business case
+    header:
+      headline: Factoring (ABT100)
+      text1: |
+        Factoring offers an attractive growth potential and important positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
+      text2: |
+        The Factoring-Asset-Based-Token “FABT” (ABT100) will allow companies to benefit from Factoring through secure, economic and transparent processes.
+    process:
+      headline: The process of an ABT100
+    roadmap:
+      headline: Roadmap estimation
   footer:
     abuse: report abuse
     social: Connect with us through

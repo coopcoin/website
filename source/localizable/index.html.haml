@@ -4,6 +4,17 @@ title: Coopcoin
 
 .bRow
   .bRow-content
+    .bList
+      .bList-item
+        %h1.aHeadline.asLeft.asLarge= t('factoring.header.headline')
+        .aText
+          .aText-paragraph= t('factoring.header.text1')
+          .aText-paragraph= t('factoring.header.text2')
+      .bList-item
+        = svg_tag('factoring_illustration')
+
+.bRow.asSecondary.withLargePadding
+  .bRow-content
     .bList.withThreeItems
       .bList-item
         .bList-headline= t('factoring.benefits.headline')
@@ -28,14 +39,17 @@ title: Coopcoin
           .aIconWithText-icon= svg_tag('icons/factoring/icon5')
           .aIconWithText-text= t('factoring.benefits.benefit5')
 
-.bRow.asSecondary.withLargePadding
+.bRow.withLargePadding
   .bRow-content
-
-.bRow
-  .bRow-content
+    %h2.aHeadline= t('factoring.documentation.headline')
+    .aButtons
+      = link_to t('factoring.documentation.button1'), '#', class: 'aButton'
+      = link_to t('factoring.documentation.button2'), '#', class: 'aButton'
 
 .bRow.asSecondary
   .bRow-content
+    %h2.aHeadline= t('factoring.process.headline')
 
 .bRow
   .bRow-content
+    %h2.aHeadline= t('factoring.roadmap.headline')
