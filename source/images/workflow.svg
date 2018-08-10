@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="621px" height="608px" viewBox="0 0 621 608" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="613px" height="590px" viewBox="0 0 613 590" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
     <title>Workflow</title>
     <desc>Created with Sketch.</desc>
@@ -14,64 +14,61 @@
                     <circle id="Oval-3" fill="#86C7A4" fill-rule="nonzero" cx="90" cy="300" r="5"></circle>
                     <rect id="Rectangle-2" fill="#86C7A4" fill-rule="nonzero" x="160" y="0" width="110" height="86" rx="8"></rect>
                     <rect id="Rectangle-2" fill="#86C7A4" fill-rule="nonzero" x="0" y="204" width="110" height="86" rx="8"></rect>
-                    <text id="Seller" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" letter-spacing="0.4210526" fill="#FCF4F0">
-                        <tspan x="185" y="47">SELLE</tspan>
-                        <tspan x="232.97245" y="47" letter-spacing="0.05807623">R</tspan>
+                    <text id="Seller" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" letter-spacing="0.4210526" fill="#FCF4F0">
+                        <tspan x="185" y="48">SELLE</tspan>
+                        <tspan x="233.889263" y="48" letter-spacing="0.05807623">R</tspan>
                     </text>
-                    <text id="CoopCoin" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" letter-spacing="0.4210526" fill="#FCF4F0">
-                        <tspan x="13" y="254">COOPCOI</tspan>
-                        <tspan x="88.1192432" y="254" letter-spacing="0.05807623">N</tspan>
+                    <text id="CoopCoin" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" letter-spacing="0.4210526" fill="#FCF4F0">
+                        <tspan x="13" y="255">COOPCOI</tspan>
+                        <tspan x="78.8753682" y="255" letter-spacing="0.05807623">N</tspan>
                     </text>
-                    <text id="Transfer-of-outstand" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Transfer-of-outstand" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="469" y="246">Transfer of outstanding </tspan>
                         <tspan x="469" y="264">debt in Fiat Money</tspan>
                     </text>
-                    <text id="Transfer-of-Fiat-Mon" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
-                        <tspan x="337.771973" y="127">Transfer of  </tspan>
-                        <tspan x="338.004395" y="145">Fiat Money</tspan>
+                    <text id="Transfer-of-Fiat-Mon" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
+                        <tspan x="339.27" y="127">Transfer of  </tspan>
+                        <tspan x="340.453" y="145">Fiat Money</tspan>
                     </text>
-                    <text id="Verification-of-Docu" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Verification-of-Docu" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="170" y="246">Verification </tspan>
                         <tspan x="170" y="264">of Documents</tspan>
                     </text>
-                    <text id="Identification-and-R" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Identification-and-R" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="39" y="372">Identification and Reservation </tspan>
                         <tspan x="39" y="390">of Investment Opportunity</tspan>
                     </text>
-                    <text id="Transfer-of-Liquidat" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Transfer-of-Liquidat" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="272" y="372">Transfer of </tspan>
                         <tspan x="272" y="390">Liquidation Profit</tspan>
                     </text>
-                    <text id="Transfer-of-Fiat-Mon" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Transfer-of-Fiat-Mon" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="365" y="446.563">Transfer of Fiat </tspan>
                         <tspan x="365" y="464.563">Money to invest</tspan>
                     </text>
-                    <text id="Minting-&amp;-Assigning" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Minting-&amp;-Assigning" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="0" y="458">Minting &amp; Assigning ABT </tspan>
                         <tspan x="0" y="481">and Challenging Liquidation</tspan>
                     </text>
-                    <text id="Upload-of-Documents" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" fill="#72B390">
+                    <text id="Upload-of-Documents" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="18" fill="#72B390">
                         <tspan x="0" y="41">Upload </tspan>
                         <tspan x="0" y="64">of Documents</tspan>
                     </text>
                     <rect id="Rectangle-2" fill="#86C7A4" fill-rule="nonzero" x="319" y="204" width="110" height="86" rx="8"></rect>
                     <rect id="Rectangle-2" fill="#86C7A4" fill-rule="nonzero" x="469" y="2" width="110" height="86" rx="8"></rect>
                     <rect id="Rectangle-2" fill="#86C7A4" fill-rule="nonzero" x="160" y="504" width="110" height="86" rx="8"></rect>
-                    <text id="Investor-ABT-Owner" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.4210526" fill="#FCF4F0">
-                        <tspan x="178.784128" y="546">INVESTO</tspan>
-                        <tspan x="208.219161" y="566">R </tspan>
-                        <tspan x="199.340101" y="586" font-size="14">ABT </tspan>
-                        <tspan x="187.100048" y="606" font-size="14">OWNE</tspan>
-                        <tspan x="230.845782" y="606" font-size="14" letter-spacing="0.05807623">R</tspan>
+                    <text id="Investor-ABT-Owner" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" line-spacing="20" letter-spacing="0.4210526" fill="#FCF4F0">
+                        <tspan x="176.17579" y="547">INVESTOR </tspan>
+                        <tspan x="174.364751" y="567" font-size="14">ABT OWNE</tspan>
+                        <tspan x="243.995172" y="567" font-size="14" letter-spacing="0.05807623">R</tspan>
                     </text>
-                    <text id="Local-Partner" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="0.368421" fill="#FCF4F0">
-                        <tspan x="352.722014" y="242">LOCAL </tspan>
-                        <tspan x="348.114952" y="262">PARTNE</tspan>
-                        <tspan x="371.317743" y="282">R</tspan>
+                    <text id="Local-Partner" font-family="Barlow-Medium, Barlow" font-size="14" font-weight="400" line-spacing="20" letter-spacing="0.368421" fill="#FCF4F0">
+                        <tspan x="354.162948" y="242">LOCAL </tspan>
+                        <tspan x="345.016526" y="262">PARTNER</tspan>
                     </text>
-                    <text id="Buyer" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" letter-spacing="0.4210526" fill="#FCF4F0">
-                        <tspan x="499" y="52">BUYE</tspan>
-                        <tspan x="541.887335" y="52" letter-spacing="0.05807623">R</tspan>
+                    <text id="Buyer" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" letter-spacing="0.4210526" fill="#FCF4F0">
+                        <tspan x="499" y="53">BUYE</tspan>
+                        <tspan x="539.67621" y="53" letter-spacing="0.05807623">R</tspan>
                     </text>
                     <path d="M98.5,42.25 L153.5,42.25" id="Line-4" stroke="#86C7A4" stroke-width="2" stroke-linecap="square" stroke-dasharray="3,3" fill-rule="nonzero"></path>
                     <path d="M120,250.25 L156,250.25" id="Line-4" stroke="#86C7A4" stroke-width="2" stroke-linecap="square" stroke-dasharray="3,3" fill-rule="nonzero"></path>

@@ -42,30 +42,29 @@
         <path d="M0.5544,1.74896154 C9.0174,1.89838462 16.2288,9.78934615 16.6642,19.3495769 C17.0282,27.3387308 12.5566,33.9873462 6.1474,35.8814615 L9.3114,34.9465 C15.7206,33.0538077 20.1922,26.4051923 19.8282,18.4160385 C19.3928,8.85580769 12.1814,0.963423077 3.717,0.814" id="path-71"></path>
     </defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Factoring-Page" transform="translate(-548.000000, -103.000000)">
+        <g id="Factoring-Page" transform="translate(-548.000000, -104.000000)">
             <g id="Factoring-illustartion" transform="translate(548.000000, 101.000000)">
-                <text id="PAYMENT" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="217" y="176">PAYMENT</tspan>
+                <text id="PAYMENT" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="217" y="177">PAYMENT</tspan>
                 </text>
-                <text id="ACCOUNTS-RECEIVABLE" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="415" y="282">ACCOUNTS </tspan>
-                    <tspan x="415" y="300">RECEIVABLE</tspan>
+                <text id="ACCOUNTS-RECEIVABLE" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="415" y="283">ACCOUNTS </tspan>
+                    <tspan x="415" y="302">RECEIVABLE</tspan>
                 </text>
-                <text id="SHIPPING" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="731" y="157">SHIPPING</tspan>
+                <text id="SHIPPING" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="731" y="158">SHIPPING</tspan>
                 </text>
-                <text id="SELLER" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="431" y="15">SELLER</tspan>
+                <text id="SELLER" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="431" y="16">SELLER</tspan>
                 </text>
-                <text id="FACTOR" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="37" y="449">FACTOR</tspan>
+                <text id="FACTOR" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="37" y="450">FACTOR</tspan>
                 </text>
-                <text id="BUYER-/-DEBTOR" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" line-spacing="24" fill="#DC7D48">
-                    <tspan x="690.71875" y="442">BUYER / </tspan>
-                    <tspan x="689.640625" y="466">DEBTOR</tspan>
+                <text id="BUYER-/-DEBTOR" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" line-spacing="24" fill="#DC7D48">
+                    <tspan x="661.016" y="443">BUYER / DEBTOR</tspan>
                 </text>
-                <text id="PAYMENT" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#DC7D48">
-                    <tspan x="517" y="523">PAYMENT</tspan>
+                <text id="PAYMENT" font-family="Barlow-Medium, Barlow" font-size="16" font-weight="400" fill="#DC7D48">
+                    <tspan x="517" y="524">PAYMENT</tspan>
                 </text>
                 <g id="Factoring-Illustartion" transform="translate(0.000000, 8.000000)">
                     <polygon id="Fill-1" fill="#ABDEC9" points="58 395.911392 177.885544 453 229 427.473038 229 363.422405 178.349752 387.093291 119.802392 358.780127 119.802392 261.776835 58 233"></polygon>
