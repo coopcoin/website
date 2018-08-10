@@ -38,7 +38,7 @@
     border-radius: 5px
     font-size: 16px
     line-height: 32px
-    width: 100%
+    width: 90%
     width: calc(100% - 20px)
     ul
       list-style-image: url('/images/icons/check.svg')
@@ -68,6 +68,7 @@
       //- Timeline line
       &:before
         left: 50%
+        margin-left: 28px
         content: ""
         width: 0px
         border-left: 3px dashed $green
@@ -77,9 +78,13 @@
 
     .aTimeline-entry
       margin-top: -10px
+      margin-bottom: 0
       &:before
         display: flex
       +timeline-entry
+      .aTimeline-entry-detail
+        width: inherit
+        min-width: 460px
       &:nth-of-type(odd)
         &:before
           left: 0px
@@ -91,3 +96,14 @@
         &:before
           left: 100%
           margin-left: 12px
+  // +breakpoint(480px 768px)
+  //   .aTimeline
+  //     .aTimeline-entry
+  //       .aTimeline-entry-detail
+  //         min-width: 0
+  +breakpoint(480px 1024px)
+    .aTimeline
+      .aTimeline-entry
+        .aTimeline-entry-detail
+          min-width: 0
+          width: calc(100% - 40px)
