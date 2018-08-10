@@ -1,0 +1,93 @@
+// - Timeline entry
+// - Produces the following:
+/* - &:nth-child(1) {
+ *			 grid-area: entry1;
+ *		 }
+ *   - useful timesaver if there is a lengthy list
+=timeline-entry
+  @for $i from 1 through 3
+    &:nth-child(#{$i})
+      grid-area: entry#{$i}
+
+//- Mobile First Timeline - stacked for small viewports and browsers that don't support grid
+.aTimeline
+  line-height: 1.5em
+  font-size: 14px
+  transition: all .4s ease
+  position: relative
+
+.aTimeline-entry
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  margin-bottom: 40px
+  &-title
+    color: $base-color
+    font-size: 20px
+    background-color: $green
+    border-radius: 5px
+    margin-bottom: $margin
+    display: inline-block
+    padding: $padding
+    text-transform: uppercase
+    min-width: 150px
+  &-detail
+    background-color: $light-green
+    padding: $padding
+    border-radius: 5px
+    font-size: 16px
+    line-height: 32px
+    width: 100%
+    width: calc(100% - 20px)
+    ul
+      list-style-image: url('/images/icons/check.svg')
+    li
+      padding-left: $padding
+  //- number indicator
+  &:before
+    content: ''
+    color: $white
+    align-items: center
+    justify-content: center
+    width: 34px
+    height: 34px
+    border-radius: 50%
+    position: absolute
+    left: 0px
+    display: none
+    background: url('/images/icons/timeline_dot.svg') no-repeat center center / contain
+
+//- Tablet Up Screens Layout if CSS Grid is supported
+@supports (display: grid)
+  +breakpoint(480px)
+    .aTimeline
+      display: grid
+      grid-gap: 60px
+      grid-template-areas: ".  entry1" "entry2  ." ". entry3"
+      //- Timeline line
+      &:before
+        left: 50%
+        content: ""
+        width: 0px
+        border-left: 3px dashed $green
+        height: 100%
+        position: absolute
+        top: 0
+
+    .aTimeline-entry
+      margin-top: -10px
+      &:before
+        display: flex
+      +timeline-entry
+      &:nth-of-type(odd)
+        &:before
+          left: 0px
+          margin-left: -48px
+      //- even timeline entry
+      &:nth-of-type(even)
+        align-items: flex-end
+        margin-left: 60px
+        &:before
+          left: 100%
+          margin-left: 12px

@@ -7,6 +7,7 @@ end
 
 activate :livereload
 activate :i18n
+set :markdown_engine, :redcarpet
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/

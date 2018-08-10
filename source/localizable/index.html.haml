@@ -49,7 +49,41 @@ title: Coopcoin
 .bRow.asSecondary
   .bRow-content
     %h2.aHeadline= t('factoring.process.headline')
-
-.bRow
+    .bList
+      .bList-item
+        = svg_tag('workflow')
+      .bList-item
+        .aStep
+          .aStep-number 1.
+          .aStep-text= t('factoring.steps.step1')
+        .aStep
+          .aStep-number 2.
+          .aStep-text= t('factoring.steps.step2')
+        .aStep
+          .aStep-number 3.
+          .aStep-text= t('factoring.steps.step3')
+        .aStep
+          .aStep-number 4.
+          .aStep-text= t('factoring.steps.step4')
+        .aStep
+          .aStep-number 5.
+          .aStep-text= t('factoring.steps.step5')
+.bRow.withCoinBackground
   .bRow-content
     %h2.aHeadline= t('factoring.roadmap.headline')
+    .aTimeline
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step1.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step1.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step2.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step2.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step3.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step3.text')}

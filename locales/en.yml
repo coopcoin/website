@@ -21,8 +21,40 @@ en:
       headline: The process of an ABT100
     roadmap:
       headline: Roadmap estimation
+      step1:
+        headline: Q4 2018
+        text: |
+          - One fluid experience
+          - First third party audit
+      step2:
+        headline: Q1 2019
+        text: |
+          - Coop Coin 1.0
+          - Additional functionalities
+          - Bidding
+          - Advanced AML and KYC user management
+          - Subscription service for Investors
+          - Automated investing
+          - Second third party auditing
+      step3:
+        headline: Q2 2019
+        text: |
+          - CoopCoin to work with other assets
+          - Complete integration with Ethereum Network
+          - Automatic scaling
+          - Open API
+          - Exchange of ATBs with other markets
+          - 3rd party module for partner factoring companies
+          - First investment with crypto
+
+    steps:
+      step1: 'Partner creates factoring contract & requests CoopCoin to mint ABT100'
+      step2: 'Concensus on contract mints ABT100 & assigns ownership'
+      step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
+      step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
+      step5: 'Partner pays Owner & obtains cryptographic proof  of destruction of ABT100'
   footer:
-    abuse: report abuse
+    abuse: Report abuse
     social: Connect with us through
   navigation:
     abts: ABTs

@@ -1,3 +1,27 @@
 .bFooterWrapper
   +layout_centered
   background: $dark-grey
+  color: $white
+  padding: 60px 0
+  .bFooter
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .bFooter-social-text
+      font-size: 22px
+    .bFooter-infos, .bFooter-icons, .bFooter-social
+      display: flex
+    .bFooter-logo
+      margin-right: 40px
+    .bFooter-social-text, .aIcon
+      margin-right: $margin
+    a
+      color: $white
+  +breakpoint($phone)
+    padding: 40px $margin
+    .bFooter
+      flex-direction: column
+      .bFooter-infos, .bFooter-social
+        flex-direction: column
+      .bFooter-logo, .bFooter-icons, .bFooter-social, .bFooter-social-text
+        margin-bottom: $margin

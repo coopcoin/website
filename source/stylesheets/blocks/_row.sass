@@ -6,3 +6,15 @@
     background-color: $secondary-color
   &.withLargePadding
     padding: 60px 0
+  &.withCoinBackground
+    background-image: url('/images/coin_background.svg')
+    background-repeat: no-repeat
+    background-position: 50px bottom
+    background-size: 900px
+
+  +breakpoint($tablet)
+    &.withCoinBackground
+      background-size: 600px
+  +breakpoint($phone)
+    &.withCoinBackground
+      background-image: none
