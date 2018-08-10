@@ -96,14 +96,19 @@
         &:before
           left: 100%
           margin-left: 12px
-  // +breakpoint(480px 768px)
-  //   .aTimeline
-  //     .aTimeline-entry
-  //       .aTimeline-entry-detail
-  //         min-width: 0
-  +breakpoint(480px 1024px)
+  +breakpoint($tablet)
     .aTimeline
       .aTimeline-entry
+        &:nth-of-type(odd)
+          &:before
+            margin-left: -50px
+        &:nth-of-type(even)
+          &:before
+            margin-left: 10px
         .aTimeline-entry-detail
           min-width: 0
           width: calc(100% - 40px)
+  +breakpoint(880px 1024px)
+    .aTimeline
+      &:before
+        margin-left: 0
