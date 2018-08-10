@@ -1,7 +1,7 @@
 .bList
   display: grid
   grid-gap: $margin * 2
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(2, minmax(min-content, 440px))
   .bList-headline
     font: $large-body-font
   &.withThreeItems
