@@ -6,11 +6,15 @@
     font: $giant-body-font
   &.asLarger
     font: $largest-body-font
+  &.asUppercase
     text-transform: uppercase
   &.asLeft
     text-align: left
   &.withSmallMargin
     margin-bottom: $margin
+  &.asSpecialHome
+    font-weight: 600
+    text-decoration: underline
   +breakpoint($phone)
     &.asLarge
       font: $largest-body-font

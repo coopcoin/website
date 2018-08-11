@@ -6,7 +6,7 @@ title: Coopcoin
   .bRow-content
     .bList
       .bList-item
-        %h1.aHeadline.asLeft.asLarge= t('index.header.headline')
+        %h1.aHeadline.asLeft.asLarger= t('index.header.headline')
         .aText
           .aText-paragraph= t('index.header.text1')
       .bList-item
@@ -15,7 +15,7 @@ title: Coopcoin
 .bRow.asSecondary.withLargePadding
   .bRow-content
     %h2.aHeadline= t('index.core.headline')
-    .bList
+    .bList.asCentered
       .bList-item
         .aTextWithHeadline
           .aTextWithHeadline-headline= t('index.core.element1.headline')
@@ -35,11 +35,11 @@ title: Coopcoin
 
 .bRow.withLargePadding
   .bRow-content
-    %h2.aHeadline.asLarger= t('index.things.headline')
+    %h2.aHeadline.asLarger.asUppercase= t('index.things.headline')
     .bList.withThreeItems
       - 9.times do |i|
         .bList-item
-          .aIconWithText
+          .aIconWithText.asSplit
             .aIconWithText-icon= svg_tag("icons/home/icon#{i+1}")
             .aIconWithText-text
               :markdown
@@ -48,16 +48,16 @@ title: Coopcoin
 .bRow.asSecondary
   .bRow-content
     .aHeadline.asLarger= t('index.whitepaper.headline1')
-    .aHeadline.asLarger.withSmallMargin= t('index.whitepaper.headline2')
-    = link_to t('index.whitepaper.button'), '#', class: 'aButton'
+    .aHeadline.asLarger= t('index.whitepaper.headline2')
+    .uCentered= link_to t('index.whitepaper.button'), '#', class: 'aButton'
 .bRow
   .bRow-content
     .bList.as-50-50
-      .bList-item
+      .bList-item.asCentered
         = svg_tag('buisness_case')
       .bList-item
-        %h3.aHeadline.asLeft.withSmallMargin= t('index.business_case.pre_headline')
-        %h2.aHeadline.asSpecialHome.asLeft.withSmallMargin= t('index.business_case.headline')
-        .aText
+        %h3.aHeadline.asLarger.asLeft.withSmallMargin= t('index.business_case.pre_headline')
+        %h2.aHeadline.asSpecialHome.asLarger.asLeft.withSmallMargin= t('index.business_case.headline')
+        .aText.asLarge
           .aText-paragraph= t('index.business_case.subline1')
           .aText-paragraph= t('index.business_case.subline2')
