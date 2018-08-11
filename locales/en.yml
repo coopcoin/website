@@ -1,4 +1,42 @@
 en:
+  index:
+    business_case:
+      pre_headline: 'Our first Business Case:'
+      headline: 'Factoring of Accounts Receivables'
+      subline1: 'Business cases are created with assistance at the CoopCoin community through CoopCoin’s ABTRC standard.'
+      subline2: 'Visit our ABT site for more information and how to get involved.'
+    core:
+      headline: Coop Coin’s core services
+      element1:
+        headline: ABT Creator
+        text: Create ABT with underlying real-world assets
+      element2:
+        headline: ABT LIQUIDATION SERVICE
+        text: Receive your investment return through CoopCoin partners
+      element3:
+        headline: ABT MARKETPLACE
+        text: Discover Investment Opportunities
+      element4:
+        headline: ABT PARTNER SERVICE
+        text: Invest into ABT through CoopCoin partners using fiat-currency
+    header:
+      headline: Decentralized Asset Based Token platform
+      text1: CoopCoin creates and manages non-fungible tokens (Asset Based Token “ATB”) representing real-world assets COOPs, CoopCoin’s ERC20 Token, have to be acquired & burned to use certain features, e.g. the creation of an ABT.
+    things:
+      headline: THINGS YOU CAN ALREADY DO ON COOPCOIN
+      item1: '**Sellers can register, log** onto the CoopCoin platform, **upload and create** an offer for an ABT'
+      item2: '**Investors can register, log** onto the CoopCoin platform, **search** for an ABT that meet their criteria and select or **reserve** the ABT'
+      item3: '**Investors can manage** the ABT  in a Wallet and **verify** movements/trades'
+      item4: '**Asset Based Tokens (ABT)**, the Non-Fungible Token which represents the real-world asset on the blockchain **can be minted**'
+      item5: '**Authorized partner users** can **verify** uploaded information from sellers '
+      item6: '**Ownership of the ABTs** can be **assigned** to Ethereum Addresses (for example the investor’s)'
+      item7: '**An Oracle can calculate** fiat money vs. COOP value for services that carry a fee'
+      item8: '**COOPs can be burned** to pay for services on CoopCoin that require a fee'
+      item9: '**ABTs can be traded and liquidated** through an ownership challenge'
+    whitepaper:
+      button: Coopcoin Whitepaper
+      headline1: CoopCoin will soon be issuing its COOP token
+      headline2: Please read the CoopCoin Whitepaper and get in touch with us
   factoring:
     benefits:
       headline: 'CoopCoin’s core benefits for FABT:'

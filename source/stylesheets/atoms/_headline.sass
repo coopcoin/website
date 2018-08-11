@@ -4,10 +4,13 @@
   margin: 0 0 40px 0
   &.asLarge
     font: $giant-body-font
+  &.asLarger
+    font: $largest-body-font
+    text-transform: uppercase
   &.asLeft
     text-align: left
   &.withSmallMargin
     margin-bottom: $margin
   +breakpoint($phone)
     &.asLarge
-      font: 400 34px/42px $font-family
+      font: $largest-body-font

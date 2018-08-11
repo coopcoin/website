@@ -8,6 +8,8 @@
     font: $small-body-font
     grid-gap: $margin
     grid-template-columns: repeat(3, 1fr)
+  &.as-50-50
+    grid-template-columns: repeat(2, 50%)
   +breakpoint($tablet)
     grid-template-columns: repeat(2, 1fr)
     &.withThreeItems

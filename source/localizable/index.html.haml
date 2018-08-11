@@ -6,84 +6,58 @@ title: Coopcoin
   .bRow-content
     .bList
       .bList-item
-        %h1.aHeadline.asLeft.asLarge= t('factoring.header.headline')
+        %h1.aHeadline.asLeft.asLarge= t('index.header.headline')
         .aText
-          .aText-paragraph= t('factoring.header.text1')
-          .aText-paragraph= t('factoring.header.text2')
+          .aText-paragraph= t('index.header.text1')
       .bList-item
-        = svg_tag('factoring_illustration')
+        = svg_tag('homepage_illustration')
 
 .bRow.asSecondary.withLargePadding
   .bRow-content
-    .bList.withThreeItems
+    %h2.aHeadline= t('index.core.headline')
+    .bList
       .bList-item
-        .bList-headline= t('factoring.benefits.headline')
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element1.headline')
+          .aTextWithHeadline-text= t('index.core.element1.text')
       .bList-item
-        .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/factoring/icon1')
-          .aIconWithText-text= t('factoring.benefits.benefit1')
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element2.headline')
+          .aTextWithHeadline-text= t('index.core.element2.text')
       .bList-item
-        .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/factoring/icon2')
-          .aIconWithText-text= t('factoring.benefits.benefit2')
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element3.headline')
+          .aTextWithHeadline-text= t('index.core.element3.text')
       .bList-item
-        .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/factoring/icon3')
-          .aIconWithText-text= t('factoring.benefits.benefit3')
-      .bList-item
-        .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/factoring/icon4')
-          .aIconWithText-text= t('factoring.benefits.benefit4')
-      .bList-item
-        .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/factoring/icon5')
-          .aIconWithText-text= t('factoring.benefits.benefit5')
+        .aTextWithHeadline
+          .aTextWithHeadline-headline= t('index.core.element4.headline')
+          .aTextWithHeadline-text= t('index.core.element4.text')
 
 .bRow.withLargePadding
   .bRow-content
-    %h2.aHeadline= t('factoring.documentation.headline')
-    .aButtons
-      = link_to t('factoring.documentation.button1'), '#', class: 'aButton'
-      = link_to t('factoring.documentation.button2'), '#', class: 'aButton'
+    %h2.aHeadline.asLarger= t('index.things.headline')
+    .bList.withThreeItems
+      - 9.times do |i|
+        .bList-item
+          .aIconWithText
+            .aIconWithText-icon= svg_tag("icons/home/icon#{i+1}")
+            .aIconWithText-text
+              :markdown
+                #{t("index.things.item#{i+1}")}
 
 .bRow.asSecondary
   .bRow-content
-    %h2.aHeadline= t('factoring.process.headline')
-    .bList
-      .bList-item
-        = svg_tag('workflow')
-      .bList-item
-        .aStep
-          .aStep-number 1.
-          .aStep-text= t('factoring.steps.step1')
-        .aStep
-          .aStep-number 2.
-          .aStep-text= t('factoring.steps.step2')
-        .aStep
-          .aStep-number 3.
-          .aStep-text= t('factoring.steps.step3')
-        .aStep
-          .aStep-number 4.
-          .aStep-text= t('factoring.steps.step4')
-        .aStep
-          .aStep-number 5.
-          .aStep-text= t('factoring.steps.step5')
-.bRow.withCoinBackground
+    .aHeadline.asLarger= t('index.whitepaper.headline1')
+    .aHeadline.asLarger.withSmallMargin= t('index.whitepaper.headline2')
+    = link_to t('index.whitepaper.button'), '#', class: 'aButton'
+.bRow
   .bRow-content
-    %h2.aHeadline= t('factoring.roadmap.headline')
-    .aTimeline
-      .aTimeline-entry
-        .aTimeline-entry-title= t('factoring.roadmap.step1.headline')
-        .aTimeline-entry-detail
-          :markdown
-            #{t('factoring.roadmap.step1.text')}
-      .aTimeline-entry
-        .aTimeline-entry-title= t('factoring.roadmap.step2.headline')
-        .aTimeline-entry-detail
-          :markdown
-            #{t('factoring.roadmap.step2.text')}
-      .aTimeline-entry
-        .aTimeline-entry-title= t('factoring.roadmap.step3.headline')
-        .aTimeline-entry-detail
-          :markdown
-            #{t('factoring.roadmap.step3.text')}
+    .bList.as-50-50
+      .bList-item
+        = svg_tag('buisness_case')
+      .bList-item
+        %h3.aHeadline.asLeft.withSmallMargin= t('index.business_case.pre_headline')
+        %h2.aHeadline.asSpecialHome.asLeft.withSmallMargin= t('index.business_case.headline')
+        .aText
+          .aText-paragraph= t('index.business_case.subline1')
+          .aText-paragraph= t('index.business_case.subline2')

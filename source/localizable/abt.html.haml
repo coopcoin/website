@@ -1,0 +1,89 @@
+---
+title: Coopcoin
+---
+
+.bRow
+  .bRow-content
+    .bList
+      .bList-item
+        %h1.aHeadline.asLeft.asLarge= t('factoring.header.headline')
+        .aText
+          .aText-paragraph= t('factoring.header.text1')
+          .aText-paragraph= t('factoring.header.text2')
+      .bList-item
+        = svg_tag('factoring_illustration')
+
+.bRow.asSecondary.withLargePadding
+  .bRow-content
+    .bList.withThreeItems
+      .bList-item
+        .bList-headline= t('factoring.benefits.headline')
+      .bList-item
+        .aIconWithText
+          .aIconWithText-icon= svg_tag('icons/factoring/icon1')
+          .aIconWithText-text= t('factoring.benefits.benefit1')
+      .bList-item
+        .aIconWithText
+          .aIconWithText-icon= svg_tag('icons/factoring/icon2')
+          .aIconWithText-text= t('factoring.benefits.benefit2')
+      .bList-item
+        .aIconWithText
+          .aIconWithText-icon= svg_tag('icons/factoring/icon3')
+          .aIconWithText-text= t('factoring.benefits.benefit3')
+      .bList-item
+        .aIconWithText
+          .aIconWithText-icon= svg_tag('icons/factoring/icon4')
+          .aIconWithText-text= t('factoring.benefits.benefit4')
+      .bList-item
+        .aIconWithText
+          .aIconWithText-icon= svg_tag('icons/factoring/icon5')
+          .aIconWithText-text= t('factoring.benefits.benefit5')
+
+.bRow.withLargePadding
+  .bRow-content
+    %h2.aHeadline= t('factoring.documentation.headline')
+    .aButtons
+      = link_to t('factoring.documentation.button1'), '#', class: 'aButton'
+      = link_to t('factoring.documentation.button2'), '#', class: 'aButton'
+
+.bRow.asSecondary
+  .bRow-content
+    %h2.aHeadline= t('factoring.process.headline')
+    .bList
+      .bList-item
+        = svg_tag('workflow')
+      .bList-item
+        .aStep
+          .aStep-number 1.
+          .aStep-text= t('factoring.steps.step1')
+        .aStep
+          .aStep-number 2.
+          .aStep-text= t('factoring.steps.step2')
+        .aStep
+          .aStep-number 3.
+          .aStep-text= t('factoring.steps.step3')
+        .aStep
+          .aStep-number 4.
+          .aStep-text= t('factoring.steps.step4')
+        .aStep
+          .aStep-number 5.
+          .aStep-text= t('factoring.steps.step5')
+.bRow.withCoinBackground
+  .bRow-content
+    %h2.aHeadline= t('factoring.roadmap.headline')
+    .aTimeline
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step1.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step1.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step2.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step2.text')}
+      .aTimeline-entry
+        .aTimeline-entry-title= t('factoring.roadmap.step3.headline')
+        .aTimeline-entry-detail
+          :markdown
+            #{t('factoring.roadmap.step3.text')}
