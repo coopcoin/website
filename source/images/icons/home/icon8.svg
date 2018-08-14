@@ -1,40 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="0 0.5315 63.4686 0.5315 63.4686 63.9995 0 63.9995"></polygon>
-    </defs>
-    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Homepage" transform="translate(-520.000000, -1797.000000)">
-            <g id="Developed-features" transform="translate(98.000000, 1187.000000)">
-                <g id="Icons" transform="translate(0.000000, 144.000000)">
-                    <g id="Group" transform="translate(422.000000, 465.000000)">
-                        <g id="Group-16" transform="translate(0.000000, 0.468600)">
-                            <g id="Group-3">
-                                <mask id="mask-2" fill="white">
-                                    <use xlink:href="#path-1"></use>
-                                </mask>
-                                <g id="Clip-2"></g>
-                                <path d="M63.4686,32.2655 C63.4686,49.7915 49.2606,63.9995 31.7346,63.9995 C14.2076,63.9995 -0.0004,49.7915 -0.0004,32.2655 C-0.0004,14.7395 14.2076,0.5315 31.7346,0.5315 C49.2606,0.5315 63.4686,14.7395 63.4686,32.2655" id="Fill-1" fill="#86C7A4" mask="url(#mask-2)"></path>
-                            </g>
-                            <polygon id="Stroke-4" stroke="#FCF4F0" stroke-width="1.5" stroke-linecap="round" points="22.7342 20.5604 22.7342 30.3644 13.7342 35.1854 13.7342 45.3644 22.7342 50.4354 31.7342 45.3644 40.7342 50.4354 49.7342 45.3644 49.7342 35.4984 40.7342 30.3644 40.7342 20.5604 31.7342 15.0604"></polygon>
-                            <path d="M39.2171,22.0409 L32.2371,26.1809 L32.2371,32.9109 C32.2371,33.1809 32.0071,33.4109 31.7371,33.4109 C31.4571,33.4109 31.2371,33.1809 31.2371,32.9109 L31.2371,26.1809 L24.4271,22.1509 C24.1971,22.0109 24.1171,21.7009 24.2571,21.4609 C24.3971,21.2309 24.7071,21.1509 24.9371,21.2909 L31.7371,25.3209 L38.7071,21.1809 C38.9471,21.0409 39.2471,21.1209 39.3971,21.3609 C39.5371,21.5909 39.4571,21.9009 39.2171,22.0409 Z M31.7371,15.0619 L22.7371,20.5619 L22.7371,30.3609 L31.7371,35.1809 L40.7371,30.3609 L40.7371,20.5619 L31.7371,15.0619 Z" id="Fill-6" fill="#FCF4F0"></path>
-                            <path d="M41.8314,17.0155 L42.4744,11.9475" id="Stroke-8" stroke="#FCF4F0" stroke-linecap="round"></path>
-                            <path d="M43.4452,19.159 L47.8592,16.169" id="Stroke-10" stroke="#FCF4F0" stroke-linecap="round"></path>
-                            <path d="M44.3343,21.7938 L49.2793,23.0758" id="Stroke-12" stroke="#FCF4F0" stroke-linecap="round"></path>
-                            <path d="M31.7342,25.9637 L31.7342,33.0477" id="Stroke-14" stroke="#86C7A4" stroke-width="1.5" stroke-linecap="round"></path>
-                        </g>
-                        <polyline id="Stroke-17" stroke="#FCF4F0" stroke-width="1.5" stroke-linecap="round" points="13.7342 35.654 22.7342 40.833 31.7342 35.654 40.7342 40.833 49.7342 35.966"></polyline>
-                        <path d="M31.7342,45.8327 L31.7342,35.6537" id="Stroke-18" stroke="#FCF4F0" stroke-width="1.5" stroke-linecap="round"></path>
-                        <path d="M22.7342,40.8327 L22.7342,50.9037" id="Stroke-19" stroke="#FCF4F0" stroke-width="1.5" stroke-linecap="round"></path>
-                        <path d="M40.7342,40.8327 L40.7342,50.9037" id="Stroke-20" stroke="#FCF4F0" stroke-width="1.5" stroke-linecap="round"></path>
-                        <polyline id="Stroke-21" stroke="#FCF4F0" stroke-linecap="round" points="22.7342 21.029 22.7342 30.833 31.7342 35.654 40.7342 30.833"></polyline>
-                        <polyline id="Stroke-22" stroke="#86C7A4" stroke-width="1.5" stroke-linecap="round" points="24.2572 21.9294 31.7342 26.4324 39.3972 21.8294"></polyline>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Homepage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 68.5 69.8" style="enable-background:new 0 0 68.5 69.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#86C7A4;}
+	.st1{fill:#FCF4F0;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="34.7" cy="35.1" r="31.7"/>
+	</g>
+	<g>
+		<path class="st1" d="M43.7,54.2l-9-5.1l-9,5.1L16,48.7V37.6l9-4.8V23l9.8-6l9.8,6v9.8l9,5.1v10.7L43.7,54.2z M34.7,47.4l9,5.1
+			l8.2-4.6v-9l-9-5.1v-9.8l-8.2-5l-8.2,5v9.8l-9,4.8v9.3l8.2,4.6L34.7,47.4z M25.7,33.2L25.7,33.2L25.7,33.2z"/>
+	</g>
+	<g>
+		<path class="st1" d="M34.7,17.9l-9,5.5v9.8l9,4.8l9-4.8v-9.8L34.7,17.9z M42.2,24.9l-7,4.1v6.7c0,0.3-0.2,0.5-0.5,0.5
+			c-0.3,0-0.5-0.2-0.5-0.5V29l-6.8-4c-0.2-0.1-0.3-0.4-0.2-0.7c0.1-0.2,0.5-0.3,0.7-0.2l6.8,4l7-4.1c0.2-0.1,0.5-0.1,0.7,0.2
+			C42.5,24.4,42.5,24.8,42.2,24.9z"/>
+	</g>
+	<g>
+		<path class="st1" d="M44.8,20.4C44.8,20.4,44.8,20.4,44.8,20.4c-0.3,0-0.5-0.3-0.5-0.6l0.6-5.1c0-0.3,0.3-0.5,0.6-0.4
+			c0.3,0,0.5,0.3,0.4,0.6l-0.6,5.1C45.3,20.2,45.1,20.4,44.8,20.4z"/>
+	</g>
+	<g>
+		<path class="st1" d="M46.4,22.5c-0.2,0-0.3-0.1-0.4-0.2c-0.2-0.2-0.1-0.5,0.1-0.7l4.4-3c0.2-0.2,0.5-0.1,0.7,0.1
+			c0.2,0.2,0.1,0.5-0.1,0.7l-4.4,3C46.6,22.5,46.5,22.5,46.4,22.5z"/>
+	</g>
+	<g>
+		<path class="st1" d="M52.3,26.4c0,0-0.1,0-0.1,0l-4.9-1.3c-0.3-0.1-0.4-0.3-0.4-0.6c0.1-0.3,0.3-0.4,0.6-0.4l4.9,1.3
+			c0.3,0.1,0.4,0.3,0.4,0.6C52.7,26.3,52.5,26.4,52.3,26.4z"/>
+	</g>
+	<g>
+		<path class="st0" d="M34.7,36.7c-0.4,0-0.8-0.3-0.8-0.8v-7.1c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v7.1
+			C35.5,36.3,35.1,36.7,34.7,36.7z"/>
+	</g>
+	<g>
+		<path class="st1" d="M25.7,44.1l-9.4-5.4c-0.4-0.2-0.5-0.7-0.3-1c0.2-0.4,0.7-0.5,1-0.3l8.6,5l9-5.2l9,5.2l8.6-4.7
+			c0.4-0.2,0.8-0.1,1,0.3s0.1,0.8-0.3,1l-9.4,5.1l-9-5.2L25.7,44.1z"/>
+	</g>
+	<g>
+		<path class="st1" d="M34.7,49c-0.4,0-0.8-0.3-0.8-0.8V38c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v10.2C35.5,48.6,35.1,49,34.7,49z"
+			/>
+	</g>
+	<g>
+		<path class="st1" d="M25.7,54c-0.4,0-0.8-0.3-0.8-0.8V43.2c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v10.1C26.5,53.7,26.1,54,25.7,54
+			z"/>
+	</g>
+	<g>
+		<path class="st1" d="M43.7,54c-0.4,0-0.8-0.3-0.8-0.8V43.2c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v10.1C44.5,53.7,44.1,54,43.7,54
+			z"/>
+	</g>
+	<g>
+		<path class="st1" d="M34.7,38.6l-9.5-5.1V23.4c0-0.3,0.2-0.5,0.5-0.5s0.5,0.2,0.5,0.5v9.5l8.5,4.6l8.8-4.7c0.2-0.1,0.5,0,0.7,0.2
+			s0,0.5-0.2,0.7L34.7,38.6z"/>
+	</g>
+	<g>
+		<path class="st0" d="M34.7,29.7L26.9,25c-0.4-0.2-0.5-0.7-0.3-1c0.2-0.4,0.7-0.5,1-0.3l7.1,4.3l7.3-4.4c0.4-0.2,0.8-0.1,1,0.3
+			c0.2,0.4,0.1,0.8-0.3,1L34.7,29.7z"/>
+	</g>
+</g>
 </svg>
