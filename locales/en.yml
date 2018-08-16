@@ -91,6 +91,14 @@ en:
       step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
       step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
       step5: 'Partner pays Owner & obtains cryptographic proof  of destruction of ABT100'
+  
+  documents:
+    headline: CoopCoin Documents
+    intro: Here we post CoopCoin's documents. If you want to get in touch with us or have any questions, please contact us.
+    links: 
+      whitepaper: CoopCoin Whitepaper
+      abtrc100: ABTRC100 - Factoring
+      abt100_business_case: ABT100 Business Case Factoring
   footer:
     abuse: Report abuse
     social: Connect with us through
