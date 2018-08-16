@@ -6,7 +6,7 @@ en:
       subline1: 'Business cases are created with assistance at the CoopCoin community through CoopCoin’s <a href="/abtrc">ABTRC standard</a>.'
       subline2: 'Visit our <a href="/abtrc">ABTRC site for more information</a> and how to get involved.'
     core:
-      headline: Coop Coin offers the following core services
+      headline: CoopCoin offers the following core services
       element1:
         headline: The ABT CREATOR
         text: Create an ABT with underlying real-world assets
@@ -22,7 +22,7 @@ en:
     header:
       headline: "CoopCoin: A decentralized Asset-Based Token platform"
       text1: |
-        <p>CoopCoin creates and manages non-fungible tokens (Asset Based Token "ATB") representing real-world assets.</p> 
+        <p>CoopCoin creates and manages non-fungible tokens (Asset Based Token "ABT") representing real-world assets.</p> 
         <p>COOPs, CoopCoin’s ERC20 Token, have to be acquired & burned to use certain features, e.g. the creation of an ABT.</p>
     things:
       headline: "CoolCoin's prototype already offers:"
@@ -36,7 +36,7 @@ en:
       item8: '**Burning of COOPs** to pay for services that require a fee'
       item9: '**ABTs can be traded and liquidated** through an ownership challenge'
     whitepaper:
-      button: Coopcoin Whitepaper
+      button: CoopCoin Whitepaper
       headline1: CoopCoin will soon be issuing its COOP token
       headline2: Please read the CoopCoin Whitepaper and get in touch with us
   factoring:
@@ -75,7 +75,7 @@ en:
       step2:
         headline: Q1 2019
         text: |
-          - Coop Coin 1.0
+          - CoopCoin 1.0
           - Additional functionalities
           - Bidding
           - Advanced AML and KYC user management
@@ -89,7 +89,7 @@ en:
           - Complete integration with Ethereum Network
           - Automatic scaling
           - Open API
-          - Exchange of ATBs with other markets
+          - Exchange of ABTs with other markets
           - Third-party module for partner factoring companies
           - First investment with crypto
   
