@@ -18,28 +18,27 @@ title: Coopcoin
     .bList.asCentered
       .bList-item
         .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/abtrc/real-world-asset')
+          .aIconWithText-icon= svg_tag('icons/abtrc/icon1')
           .aIconWithText-text= t('abtrc.requirements.realworld')
       .bList-item
         .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/abtrc/accessible')
+          .aIconWithText-icon= svg_tag('icons/abtrc/icon2')
           .aIconWithText-text= t('abtrc.requirements.accessible')
       .bList-item
         .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/abtrc/marketsize')
+          .aIconWithText-icon= svg_tag('icons/abtrc/icon3')
           .aIconWithText-text= t('abtrc.requirements.marketsize')
       .bList-item
         .aIconWithText
-          .aIconWithText-icon= svg_tag('icons/abtrc/liquidity')
+          .aIconWithText-icon= svg_tag('icons/abtrc/icon4')
           .aIconWithText-text= t('abtrc.requirements.liquidity')
 .bRow
   .bRow-content
-    .bList.as-50-50
+    %h3.aHeadline.asLarger= t('abtrc.current_abts.headline')
+    .bList
       .bList-item.asCentered
-        .aButtons
+        .aButtons.asColumns
           = link_to t('documents.links.whitepaper'), '#', class: 'aButton'
           = link_to t('documents.links.abtrc100'), '#', class: 'aButton'
       .bList-item
-        %h3.aHeadline.asLarger.asLeft.withSmallMargin
-          = t('abtrc.current_abts.headline')
         .aText-paragraph= t('abtrc.current_abts.description')
