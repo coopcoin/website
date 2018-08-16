@@ -118,14 +118,15 @@ en:
       liquidity: The representation of the asset through an ABT should enhance the liquidity and tradability of the asset to all parties involved
     current_abts:
       headline: Current ABTs on CoopCoin
-      description: The ABT100 Non-Fungible Token allows the <a href="/abt">factoring of accounts receivable</a>, improves the seller's working capital, creating an interesting cross-border investment opportunity and collateral on the Blockchain.
+      description: The ABT100 Non-Fungible Token allows the <a href="/abt100">factoring of accounts receivable</a>, improves the seller's working capital, creating an interesting cross-border investment opportunity and collateral on the Blockchain.
 
 
   footer:
     abuse: Report abuse
     social: Connect with us through
   navigation:
-    abts: ABTs
+    abt100: ABT100
+    abtrc: ABTRC
     blog: Blog
     documents: Documents
     contact: Contact
