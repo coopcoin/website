@@ -3,7 +3,7 @@ en:
     business_case:
       pre_headline: 'Our first Business Case:'
       headline: 'Factoring of Accounts Receivable'
-      subline1: 'Business cases are created with assistance from the CoopCoin community following the CoopCoin’s <a href="/abtrc">ABTRC standard</a>.'
+      subline1: 'Business cases are created with assistance from the CoopCoin community following the CoopCoin <a href="/abtrc">ABTRC standard</a>.'
       subline2: 'Visit our <a href="/abtrc">ABTRC site for more information</a> and how to get involved.'
     core:
       headline: CoopCoin offers the following core services
@@ -37,7 +37,7 @@ en:
       item9: '**ABTs can be traded and liquidated** through an ownership challenge'
     whitepaper:
       button: CoopCoin Whitepaper
-      headline1: CoopCoin will soon be issuing its COOP token
+      headline1: CoopCoin will soon issue its COOP Token
       headline2: Please read the CoopCoin Whitepaper and get in touch with us
   factoring:
     benefits:
