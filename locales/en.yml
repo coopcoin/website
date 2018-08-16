@@ -41,24 +41,30 @@ en:
       headline2: Please read the CoopCoin Whitepaper and get in touch with us
   factoring:
     benefits:
-      headline: 'CoopCoin’s core benefits for FABT:'
+      headline: 'Core benefits of CoopCoin’s ABT100'
       benefit1: 'ABTs can be identified from potential  investors around the globe, increasing probablilty of success'
-      benefit2: 'Additional features such as splittling & bundling of ABTs open up opportunies for private and institutional investors'
-      benefit3: 'Security through blockchain and  thorough research concerning relevant regulation create trust for all entities'
-      benefit4: 'Liquidity and tradability of  ABTs make them an attractive investment opportunity'
-      benefit5: 'Elimination of information asymmetry  leads to fairer pricing processes through  transparent market'
+      benefit2: 'Additional features such as splittling & bundling of ABT100 open up opportunies for private and institutional investors'
+      benefit3: 'Security through blockchain and thorough regulatory research build trust for all entities involved'
+      benefit4: 'The tradability of ABT100 shall make them an attractive and liquid investment opportunity'
+      benefit5: 'A transparent market shall eliminate information asymmetry and lead to fairer pricing processes'
     documentation:
-      headline: Please read the technical documentation for the ABT100 and the Business Case
-      button1: Read our ABTRC for Factoring
-      button2: ABT100 Business case
+      headline: Please refer to the ABTRC100 and the Business Case for the technical documentation
+      abt100_factoring: ABT100 - Factoring
+      business_case: ABT100 Business case - Factoring
     header:
-      headline: Factoring (ABT100)
+      headline: ABT100 - Factoring ABT
       text1: |
-        Factoring offers an attractive growth potential and important positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
+        Factoring offers an attractive growth potential and essential positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
       text2: |
-        The Factoring-Asset-Based-Token “FABT” (ABT100) will allow companies to benefit from Factoring through secure, economic and transparent processes.
+        The Factoring-Asset-Based-Token (ABT100) will allow companies to benefit from Factoring through secure, economic and transparent processes.
     process:
-      headline: The process of an ABT100
+      headline: The process of an ABT100 (simplified)
+      steps:
+        step1: 'Partner creates factoring contract & sends requests CoopCoin to mint a corresponding ABT100'
+        step2: 'Concensus on contract mints ABT100 & assigns ownership'
+        step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
+        step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
+        step5: 'Partner pays owner & obtains cryptographic proof of destruction of ABT100'
     roadmap:
       headline: Roadmap estimation
       step1:
@@ -75,7 +81,7 @@ en:
           - Advanced AML and KYC user management
           - Subscription service for Investors
           - Automated investing
-          - Second third party auditing
+          - Second third-party auditing
       step3:
         headline: Q2 2019
         text: |
@@ -84,15 +90,8 @@ en:
           - Automatic scaling
           - Open API
           - Exchange of ATBs with other markets
-          - 3rd party module for partner factoring companies
+          - Third-party module for partner factoring companies
           - First investment with crypto
-
-    steps:
-      step1: 'Partner creates factoring contract & requests CoopCoin to mint ABT100'
-      step2: 'Concensus on contract mints ABT100 & assigns ownership'
-      step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
-      step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
-      step5: 'Partner pays Owner & obtains cryptographic proof  of destruction of ABT100'
   
   documents:
     headline: CoopCoin Documents
