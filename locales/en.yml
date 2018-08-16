@@ -95,7 +95,7 @@ en:
   
   documents:
     headline: CoopCoin Documents
-    intro: Here we post CoopCoin's documents. If you want to get in touch with us or have any questions, please contact us.
+    intro: Here we post CoopCoin's documents. If you want to get in touch with us or have any questions, please <a href="/contact">contact us</a>.
     links: 
       whitepaper: CoopCoin Whitepaper
       abtrc100: ABTRC100 - Factoring
