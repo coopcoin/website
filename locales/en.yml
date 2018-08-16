@@ -102,6 +102,24 @@ en:
   contact: 
     headline: Contact us
     intro: CoopCoin aims to create a strong and vibrant community. Please get in touch with us through the below mentioned channels. If you are interested in the CoopCoin Token Issuance, please fill out the contact form below.
+  abtrc:
+    header:
+      headline: ABTRCs
+      text: |
+        <p>The Asset-Based Token Request for Comment (ABTRC) is CoopCoin's specification of the workflows and requirements creating ABTs.</p>
+        <p>CoopCoin's team and its community are expected to create different ABTs.</p>
+        <p>CoopCoin's most important goal is to create an overall positive socio-economic impact for companies and co-operatives. CoopCoin seeks to achieve this by improving access to and lowering the costs of trading the ABT's underlaying real-world asset.</p>
+    requirements:
+      headline: An ABTRC on CoopCoin should meet the following requirements
+      realworld: Represent a real-world asset with potential of legally binding tokenization
+      accessible: The asset should be accessible to a broad range of investors, ideally through bundling/splitting also to non-professional investors
+      marketsize: The corresponding business case should demonstrate that the asset has a considerable market size and socio-economic impact
+      liquidity: The representation of the asset through an ABT should enhance the liquidity and tradability of the asset to all parties involved
+    current_abts:
+      headline: Current ABTs on CoopCoin
+      description: The ABT100 Non-Fungible Token allows the factoring of accounts receivable, improves the seller's working capital, creating an interesting cross-border investment opportunity and collateral on the Blockchain.
+
+
   footer:
     abuse: Report abuse
     social: Connect with us through
