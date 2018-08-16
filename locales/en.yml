@@ -15,7 +15,7 @@ en:
         text: Receive your investment return through CoopCoin partners
       element3:
         headline: The ABT MARKETPLACE
-        text: Discover Investment Opportunities
+        text: Discover investment opportunities
       element4:
         headline: The ABT PARTNER SERVICE
         text: Invest into ABTs through CoopCoin partners using fiat-currency
@@ -25,10 +25,10 @@ en:
         <p>CoopCoin creates and manages non-fungible tokens (Asset Based Token "ABT") representing real-world assets.</p> 
         <p>COOPs, CoopCoin’s ERC20 Token, have to be acquired & burned to use certain features, e.g. the creation of an ABT.</p>
     things:
-      headline: "CoolCoin's prototype already offers:"
+      headline: "CoopCoin's prototype already offers:"
       item1: '**Sellers can register, log** onto the CoopCoin platform, **upload and create** an offer for an ABT'
       item2: '**Investors can register, log** onto the CoopCoin platform, **search** for an ABT that meet their criteria and select or **reserve** the ABT'
-      item3: '**Investors can manage** the ABT  in a Wallet and **verify** movements/trades'
+      item3: '**Investors can manage** the ABT in a Wallet and **verify** movements/trades'
       item4: 'CoopCoin is able to **mint an Asset Based Tokens (ABT)**, the Non-Fungible Token **which represents the real-world asset** on the blockchain'
       item5: '**Authorized partner users** can **verify** uploaded information from sellers '
       item6: '**Assignment of ownership** to an Ethereum Address (for example the investor’s)'
@@ -118,7 +118,7 @@ en:
       liquidity: The representation of the asset through an ABT should enhance the liquidity and tradability of the asset to all parties involved
     current_abts:
       headline: Current ABTs on CoopCoin
-      description: The ABT100 Non-Fungible Token allows the factoring of accounts receivable, improves the seller's working capital, creating an interesting cross-border investment opportunity and collateral on the Blockchain.
+      description: The ABT100 Non-Fungible Token allows the <a href="/abt">factoring of accounts receivable</a>, improves the seller's working capital, creating an interesting cross-border investment opportunity and collateral on the Blockchain.
 
 
   footer:
