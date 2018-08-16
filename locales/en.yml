@@ -3,8 +3,8 @@ en:
     business_case:
       pre_headline: 'Our first Business Case:'
       headline: 'Factoring of Accounts Receivables'
-      subline1: 'Business cases are created with assistance at the CoopCoin community through CoopCoin’s <a href="/abtrc">ABTRC standard</a>.'
-      subline2: 'Visit our <a href="/abtrc">ABTRC site for more information</a> and how to get involved.'
+      subline1: 'Business cases are created with assistance from the CoopCoin community following the CoopCoin’s <a href="/abtrc">ABTRC standard</a>.'
+      subline2: 'Visit our <a href="/abtrc">ABTRC site for more information</a> and how to get involved.'
     core:
       headline: CoopCoin offers the following core services
       element1:
@@ -32,9 +32,9 @@ en:
       item4: 'CoopCoin is able to **mint an Asset Based Tokens (ABT)**, the Non-Fungible Token **which represents the real-world asset** on the blockchain'
       item5: '**Authorized partner users** can **verify** uploaded information from sellers '
       item6: '**Assignment of ownership** to an Ethereum Address (for example the investor’s)'
-      item7: '**An Oracle calculates** fiat money vs. COOP value for services that carry a fee'
+      item7: '**An Oracle calculates** fiat money vs. COOP value for services that carry a fee'
       item8: '**Burning of COOPs** to pay for services that require a fee'
-      item9: '**ABTs can be traded and liquidated** through an ownership challenge'
+      item9: '**ABTs can be traded and liquidated** through an ownership challenge'
     whitepaper:
       button: CoopCoin Whitepaper
       headline1: CoopCoin will soon be issuing its COOP token
@@ -42,7 +42,7 @@ en:
   factoring:
     benefits:
       headline: 'Core benefits of CoopCoin’s ABT100'
-      benefit1: 'ABT100 can be identified from potential investors around the globe, increasing probablilty of success'
+      benefit1: 'ABT100 can be identified from potential investors around the globe, increasing the probablilty of success'
       benefit2: 'Additional features such as splittling & bundling of ABT100 open up opportunies for private and institutional investors'
       benefit3: 'Security through blockchain and thorough regulatory research build trust for all entities involved'
       benefit4: 'The tradability of ABT100 shall make them an attractive and liquid investment opportunity'
@@ -56,14 +56,14 @@ en:
       text1: |
         Factoring offers an attractive growth potential and essential positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
       text2: |
-        The Factoring-Asset-Based-Token (ABT100) will allow companies to benefit from factoring through secure, economical and transparent processes.
+        The Factoring Asset-Based-Token (ABT100) will allow companies to benefit from factoring through secure, economical and transparent processes.
     process:
       headline: The process of an ABT100 (simplified)
       steps:
         step1: 'Partner creates factoring contract & sends requests CoopCoin to mint a corresponding ABT100'
         step2: 'Concensus on contract mints ABT100 & assigns ownership'
         step3: 'Owner can sell or use ABT100 on secondary market (e.g. as collateral)'
-        step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
+        step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
         step5: 'Partner pays owner & obtains cryptographic proof of destruction of ABT100'
     roadmap:
       headline: Roadmap estimation
@@ -98,7 +98,7 @@ en:
     intro: Here we post CoopCoin's documents. If you want to get in touch with us or have any questions, please <a href="/contact">contact us</a>.
     links: 
       whitepaper: CoopCoin Whitepaper
-      abt100: ABT100 - Factoring
+      abt100: ABTRC100 - Factoring
       abt100_business_case: ABT100 Business Case Factoring
   contact: 
     headline: Contact us
