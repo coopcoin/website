@@ -1,0 +1,21 @@
+---
+title: Coopcoin
+---
+
+.bRow.withLargePadding
+  .bRow-content
+    %h1.aHeadline.asLeft.asLarge= t('contact.headline')
+    .aText
+      .aText-paragraph= t('contact.intro')
+    
+    .social-links
+      .social-icons
+        .aIcon= image_tag('icons/github.svg')
+        .aIcon= image_tag('icons/twitter.svg')
+        .aIcon= image_tag('icons/telegram.svg')
+        .aIcon= image_tag('icons/reddit.svg')
+
+    .google-form
+      %iframe{src: "https://docs.google.com/forms/d/e/1FAIpQLSdjlKVocyM9ZHjLgGXpaB2dcdgEmw6rMGwxK5L8D3LiPIhnyA/viewform?embedded=true", width: "100%", height: 2400, frameborder: 0, marginwidth: 0, marginheight: 0 }
+        loading
+
