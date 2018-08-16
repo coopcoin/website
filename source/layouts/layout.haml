@@ -12,18 +12,18 @@
     %header.bHeaderWrapper
       .bHeader
         .bHeader-logo
-          = image_tag('images/logo.svg')
+          = link_to image_tag('images/logo.svg', alt: 'CoopCoin'), '/'
         .bHeader-navigation
           #hamburger.bHeader-hamburger= svg_tag('hamburger')
           %ul#menu.aNavigation
             %li.aNavigation-item
               = link_to I18n.t('navigation.home'), '/'
             %li.aNavigation-item
-              = link_to I18n.t('navigation.abts'), 'abt'
+              = link_to I18n.t('navigation.abts'), '/abt'
             %li.aNavigation-item
-              = link_to I18n.t('navigation.blog'), '#'
+              = link_to I18n.t('navigation.documents'), '/documents'
             %li.aNavigation-item
-              = link_to I18n.t('navigation.contact'), '#'
+              = link_to I18n.t('navigation.contact'), '/contact'
     = yield
     .bFooterWrapper
       .bFooter
@@ -32,9 +32,8 @@
           .bFooter-social
             .bFooter-social-text= I18n.t('footer.social')
             .bFooter-icons
-              .aIcon= image_tag('icons/github.svg')
-              .aIcon= image_tag('icons/twitter.svg')
-              .aIcon= image_tag('icons/telegram.svg')
-              .aIcon= image_tag('icons/reddit.svg')
+              .aIcon= link_to image_tag('icons/github.svg', alt: 'GitHub'), "https://github.com/coopcoin"
+              .aIcon= link_to image_tag('icons/twitter.svg', alt: 'Twitter'), "https://twitter.com/coop_coin"
+              .aIcon= link_to image_tag('icons/telegram.svg', alt: 'Telegram'), "https://t.me/coopcoin"
+              .aIcon= link_to image_tag('icons/reddit.svg', alt: 'Reddit'), "https://reddit.com/r/coopcoin"
         .bFooter-links
-          = link_to I18n.t('footer.abuse'), '#'
