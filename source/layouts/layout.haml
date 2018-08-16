@@ -14,7 +14,8 @@
         .bHeader-logo
           = image_tag('images/logo.svg')
         .bHeader-navigation
-          %ul.aNavigation
+          #hamburger.bHeader-hamburger= svg_tag('hamburger')
+          %ul#menu.aNavigation
             %li.aNavigation-item
               = link_to I18n.t('navigation.home'), '/'
             %li.aNavigation-item

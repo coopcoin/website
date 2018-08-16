@@ -1,20 +1,28 @@
 .bRow
   +layout_centered
   background-color: $base-color
-  padding: 40px 0
+  padding-top: 40px
+  padding-bottom: 40px
   &.asSecondary
     background-color: $secondary-color
   &.withLargePadding
-    padding: 60px 0
+    padding-top: 60px
+    padding-bottom: 60px
   &.withCoinBackground
     background-image: url('/images/coin_background.svg')
     background-repeat: no-repeat
     background-position: 50px bottom
     background-size: 900px
-
+  &.asWhitepaper
+    background-image: url('/images/whitepaper_background.svg')
+    background-repeat: no-repeat
+    background-position: 50px bottom
+    background-size: cover
   +breakpoint($tablet)
     &.withCoinBackground
       background-size: 600px
-  +breakpoint($phone)
-    &.withCoinBackground
+  +breakpoint($phone_and_tablet)
+    padding-left: $padding
+    padding-right: $padding
+    &.withCoinBackground, &.asWhitepaper
       background-image: none

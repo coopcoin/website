@@ -6,3 +6,15 @@
     display: flex
     justify-content: space-between
     align-items: flex-end
+    .bHeader-hamburger
+      display: none
+    +breakpoint($tablet)
+      padding: $margin $padding 10px
+    +breakpoint($phone)
+      align-items: center
+      .bHeader-hamburger
+        display: block
+      .aNavigation
+        display: none
+        &.asOpen
+          display: block
