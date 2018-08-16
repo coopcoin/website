@@ -2,7 +2,7 @@ en:
   index:
     business_case:
       pre_headline: 'Our first Business Case:'
-      headline: 'Factoring of Accounts Receivables'
+      headline: 'Factoring of Accounts Receivable'
       subline1: 'Business cases are created with assistance from the CoopCoin community following the CoopCoin’s <a href="/abtrc">ABTRC standard</a>.'
       subline2: 'Visit our <a href="/abtrc">ABTRC site for more information</a> and how to get involved.'
     core:
