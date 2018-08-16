@@ -42,7 +42,7 @@ en:
   factoring:
     benefits:
       headline: 'Core benefits of CoopCoin’s ABT100'
-      benefit1: 'ABTs can be identified from potential  investors around the globe, increasing probablilty of success'
+      benefit1: 'ABT100 can be identified from potential investors around the globe, increasing probablilty of success'
       benefit2: 'Additional features such as splittling & bundling of ABT100 open up opportunies for private and institutional investors'
       benefit3: 'Security through blockchain and thorough regulatory research build trust for all entities involved'
       benefit4: 'The tradability of ABT100 shall make them an attractive and liquid investment opportunity'
@@ -56,13 +56,13 @@ en:
       text1: |
         Factoring offers an attractive growth potential and essential positive socio-economic impact due to its relatively small market share worldwide and until now prohibitively high costs.
       text2: |
-        The Factoring-Asset-Based-Token (ABT100) will allow companies to benefit from Factoring through secure, economic and transparent processes.
+        The Factoring-Asset-Based-Token (ABT100) will allow companies to benefit from factoring through secure, economical and transparent processes.
     process:
       headline: The process of an ABT100 (simplified)
       steps:
         step1: 'Partner creates factoring contract & sends requests CoopCoin to mint a corresponding ABT100'
         step2: 'Concensus on contract mints ABT100 & assigns ownership'
-        step3: 'Owner can sell or use ABT100 on secondary market  (e.g. as collateral)'
+        step3: 'Owner can sell or use ABT100 on secondary market (e.g. as collateral)'
         step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
         step5: 'Partner pays owner & obtains cryptographic proof of destruction of ABT100'
     roadmap:
@@ -71,7 +71,7 @@ en:
         headline: Q4 2018
         text: |
           - One fluid experience
-          - First third party audit
+          - First third-party audit
       step2:
         headline: Q1 2019
         text: |
@@ -98,7 +98,7 @@ en:
     intro: Here we post CoopCoin's documents. If you want to get in touch with us or have any questions, please <a href="/contact">contact us</a>.
     links: 
       whitepaper: CoopCoin Whitepaper
-      abtrc100: ABTRC100 - Factoring
+      abt100: ABT100 - Factoring
       abt100_business_case: ABT100 Business Case Factoring
   contact: 
     headline: Contact us
@@ -109,7 +109,7 @@ en:
       text: |
         <p>The Asset-Based Token Request for Comment (ABTRC) is CoopCoin's specification of the workflows and requirements creating ABTs.</p>
         <p>CoopCoin's team and its community are expected to create different ABTs.</p>
-        <p>CoopCoin's most important goal is to create an overall positive socio-economic impact for companies and co-operatives. CoopCoin seeks to achieve this by improving access to and lowering the costs of trading the ABT's underlaying real-world asset.</p>
+        <p>CoopCoin's most important goal is to create an overall positive socio-economic impact for companies and co-operatives. CoopCoin seeks to achieve this by improving access to and lowering the costs of trading the ABT's underlying real-world asset.</p>
     requirements:
       headline: An ABTRC on CoopCoin should meet the following requirements
       realworld: Represent a real-world asset with potential of legally binding tokenization
