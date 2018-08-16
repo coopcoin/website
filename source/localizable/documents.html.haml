@@ -7,7 +7,8 @@ title: CoopCoin
     %h1.aHeadline.asLeft.asLarge= t('documents.headline')
     .aText
       .aText-paragraph= t('documents.intro')
-    .aButtons
-      = link_to t('documents.links.whitepaper'), '/pdfs/CoopCoin-whitepaper.pdf', class: 'aButton'
-      = link_to t('documents.links.abt100'), '/pdfs/CoopCoin-ABTRC100-Factoring.pdf', class: 'aButton'
-      = link_to t('documents.links.abt100_business_case'), '/pdfs/CoopCoin-ABT100-Business-Case.pdf', class: 'aButton'
+    .bRow-content
+      .buttonList
+        = link_to t('documents.links.whitepaper'), '/pdfs/CoopCoin-whitepaper.pdf', class: 'aButton'
+        = link_to t('documents.links.abt100'), '/pdfs/CoopCoin-ABTRC100-Factoring.pdf', class: 'aButton'
+        = link_to t('documents.links.abt100_business_case'), '/pdfs/CoopCoin-ABT100-Business-Case.pdf', class: 'aButton'

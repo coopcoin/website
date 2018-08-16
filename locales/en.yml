@@ -28,10 +28,10 @@ en:
       headline: "CoopCoin's prototype already offers:"
       item1: '**Sellers can register, log** onto the CoopCoin platform, **upload and create** an offer for an ABT'
       item2: '**Investors can register, log** onto the CoopCoin platform, **search** for an ABT that meet their criteria and select or **reserve** the ABT'
-      item3: '**Investors can manage** the ABT in a Wallet and **verify** movements/trades'
+      item3: '**Investors can manage** the ABT in a Wallet and **verify** its activity'
       item4: 'CoopCoin is able to **mint an Asset Based Tokens (ABT)**, the Non-Fungible Token **which represents the real-world asset** on the blockchain'
       item5: '**Authorized partner users** can **verify** uploaded information from sellers '
-      item6: '**Assignment of ownership** to an Ethereum Address (for example the investor’s)'
+      item6: '**Assignment of the ABT ownership** to an Ethereum Address for example the investor’s)'
       item7: '**An Oracle calculates** fiat money vs. COOP value for services that carry a fee'
       item8: '**Burning of COOPs** to pay for services that require a fee'
       item9: '**ABTs can be traded and liquidated** through an ownership challenge'
