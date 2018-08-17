@@ -22,7 +22,7 @@ en:
     header:
       headline: "CoopCoin: A decentralized Asset-Based Token platform"
       text1: |
-        <p>CoopCoin creates and manages non-fungible tokens (Asset Based Token "ABT") representing real-world assets.</p> 
+        <p>CoopCoin (co·op·coin) creates and manages non-fungible tokens (Asset Based Token "ABT") representing real-world assets.</p> 
         <p>COOPs, CoopCoin’s ERC20 Token, have to be acquired & burned to use certain features, e.g. the creation of an ABT.</p>
     things:
       headline: "CoopCoin's prototype already offers:"
