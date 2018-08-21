@@ -47,9 +47,11 @@ title: CoopCoin - A decentralized Asset-Based Token platform
 
 .bRow.asSecondary.asWhitepaper
   .bRow-content
-    .aHeadline.asLarger= t('index.whitepaper.headline1')
-    .aHeadline.asLarger= t('index.whitepaper.headline2')
-    .uCentered= link_to t('index.whitepaper.button'), '/pdfs/CoopCoin-whitepaper.pdf', class: 'aButton'
+    .aHeadline.asLarger.withSmallMargin
+      = t('index.whitepaper.headline1')
+    .aHeadline
+      = t('index.whitepaper.headline2')
+    .uCentered= link_to t('index.whitepaper.button'), '/pdfs/CoopCoin-whitepaper.pdf', class: 'aButton pdf-download'
 .bRow
   .bRow-content
     .bList.as-50-50

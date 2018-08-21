@@ -38,7 +38,7 @@ en:
     whitepaper:
       button: CoopCoin Whitepaper
       headline1: CoopCoin will soon issue its COOP Token
-      headline2: Please read the CoopCoin Whitepaper and get in touch with us
+      headline2: Please read the CoopCoin Whitepaper and <a href="/contact">get in touch with us</a>
   factoring:
     benefits:
       headline: 'Core benefits of CoopCoin’s ABT100'

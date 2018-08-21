@@ -34,11 +34,16 @@ page '/*.txt', layout: false
 # )
 
 helpers do
-  def svg_tag(name)
+  def svg_tag(name, options = {})
     root = Middleman::Application.root
     file_path = "#{root}/source/images/#{name}.svg"
-    return File.read(file_path) if File.exists?(file_path)
-    '(not found)'
+    content_tag :div, options do
+      if File.exists?(file_path)
+        File.read(file_path)
+      else
+        '(not found)'
+      end
+    end
   end
 end
 
