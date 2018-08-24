@@ -24,6 +24,7 @@ en:
       text1: |
         <p>CoopCoin (co·op·coin) creates and manages non-fungible tokens (Asset Based Token "ABT") representing real-world assets.</p> 
         <p>COOPs, CoopCoin’s ERC20 Token, have to be acquired & burned to use certain features, e.g. the creation of an ABT.</p>
+        <p>Check out the <a href="/abt100#demo">video of our working prototype</a> on our <a href="/abt100">Factoring-ABT Page</a></p>
     things:
       headline: "CoopCoin's prototype already offers:"
       item1: '**Sellers can register, log** onto the CoopCoin platform, **upload and create** an offer for an ABT'
