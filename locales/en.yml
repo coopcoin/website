@@ -22,8 +22,8 @@ en:
     header:
       headline: "CoopCoin: A decentralized Asset-Based Token platform"
       text1: |
-        <p>CoopCoin (co·op·coin) helps to create and manage non-fungible ERC 721 Tokens (Asset-Based Token "ABT") representing real-world assets in a legally binding way.</p> 
-        <p>CoopCoin’s ERC20 Token are used & burned for certain features, e.g. the creation of an Asset-Based Token (similar to a Security Token).</p>
+        <p>CoopCoin (co·op·coin) helps to create and manage non-fungible ERC 721 Tokens (Asset-Based Token "ABT", similar to a Security Token) representing real-world assets in a legally binding way.</p> 
+        <p>CoopCoin’s own ERC20 Token are used as a fee on the network & burned for certain services, e.g. the creation of an Asset-Based Token.</p>
         <p>Check out the <a href="/abt100#demo">video of our working prototype</a> on our <a href="/abt100">Factoring-ABT Page</a></p>
     things:
       headline: "CoopCoin's prototype already offers:"
@@ -61,7 +61,7 @@ en:
     process:
       headline: The process of an ABT100 (simplified)
       steps:
-        step1: 'Partner creates factoring contract & sends requests CoopCoin to mint a corresponding ABT100'
+        step1: 'Partner creates factoring contract & requests CoopCoin to mint a corresponding ABT100'
         step2: 'Concensus on contract mints ABT100, representing the real-world asset, & assigns ownership'
         step3: 'Owner can sell or use ABT100 on secondary market (e.g. as collateral)'
         step4: 'CoopCoin signals ABT100 as ready to be liquidated & verifies ownership'
